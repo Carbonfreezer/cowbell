@@ -60,7 +60,7 @@ which results in an output like the following:
 library(cowbell)
 concept<-generateCowbellConcept(Fun ~ Fluency * Absorption, 1, 9, 1, 7, 1, 7)
 data(allFun)
-test<-generateCowbell(concept, allFun, 10)
+test<-generateCowbell(concept, allFun)
 summary(test)
 ```
 
