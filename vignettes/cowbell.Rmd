@@ -79,6 +79,9 @@ which results in a visualization like the following:
 knitr::include_graphics("Example.png")
 ```
 
+
+## Additional commands
+
 Also the following generic functions that are often used in R for prediction functionality are implemented:
 
 * fitted
